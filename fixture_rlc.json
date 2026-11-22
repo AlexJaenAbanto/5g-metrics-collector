@@ -1,0 +1,60 @@
+{
+  "rlc_metrics": {
+    "drb_id": 1,
+    "du_id": 0,
+    "rx": {
+      "num_lost_pdus": 0,
+      "num_malformed_pdus": 0,
+      "num_pdu_bytes": 65590,
+      "num_pdus": 1216,
+      "num_sdu_bytes": 61809,
+      "num_sdus": 1111
+    },
+    "tx": {
+      "max_pdu_latency_ns": 30764,
+      "num_discard_failures": 0,
+      "num_discarded_sdus": 0,
+      "num_dropped_sdus": 0,
+      "num_sdu_bytes": 3433141,
+      "num_sdus": 2447,
+      "pull_latency_histogram": [
+        {
+          "pull_latency_bin_count": 736,
+          "pull_latency_bin_start_usec": 0
+        },
+        {
+          "pull_latency_bin_count": 1534,
+          "pull_latency_bin_start_usec": 1
+        },
+        {
+          "pull_latency_bin_count": 158,
+          "pull_latency_bin_start_usec": 2
+        },
+        {
+          "pull_latency_bin_count": 1,
+          "pull_latency_bin_start_usec": 3
+        },
+        {
+          "pull_latency_bin_count": 0,
+          "pull_latency_bin_start_usec": 4
+        },
+        {
+          "pull_latency_bin_count": 1,
+          "pull_latency_bin_start_usec": 5
+        },
+        {
+          "pull_latency_bin_count": 2,
+          "pull_latency_bin_start_usec": 6
+        },
+        {
+          "pull_latency_bin_count": 14,
+          "pull_latency_bin_start_usec": 7
+        }
+      ],
+      "sum_pdu_latency_ns": 3359660,
+      "sum_sdu_latency_us": 80606427
+    },
+    "ue_id": 0
+  },
+  "timestamp": "2026-10-09T17:26:18.664"
+}

@@ -1,0 +1,5 @@
+prometheus_client==0.26.0
+PyYAML==6.0.3
+pyzmq==27.3.0
+websocket-client==1.9.2
+websockets==17.3

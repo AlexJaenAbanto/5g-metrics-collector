@@ -1,0 +1,130 @@
+{
+  "cu-up": {
+    "pdcp": {
+      "bearers": [
+        {
+          "dl": {
+            "average_latency_us": 26.491077267637177,
+            "average_throughput_mbps": 9.418672,
+            "cpu_usage_percent": 0.0231534,
+            "histogram_bin_width_us": 1,
+            "histogram_last_bin_is_overflow": true,
+            "latency_histogram": [
+              0,
+              3,
+              7,
+              11,
+              11,
+              6,
+              17,
+              838
+            ],
+            "max_latency_us": 120.834,
+            "min_latency_us": 1.9140000000000001,
+            "num_discard_timeouts": 0,
+            "num_dropped_sdus": 0,
+            "num_pdu_bytes": 1177334,
+            "num_pdus": 893,
+            "num_sdu_bytes": 1174655,
+            "num_sdus": 893,
+            "pdu_throughput_mbps": 9.418672,
+            "sdu_throughput_mbps": 9.39724
+          },
+          "rb_id": 1,
+          "rb_type": "DRB",
+          "ue_index": 0,
+          "ul": {
+            "average_latency_us": 28.87233606557377,
+            "average_reordering_delay_us": 28.34153005464481,
+            "average_throughput_mbps": 0.20572,
+            "cpu_usage_percent": 0.0085685,
+            "histogram_bin_width_us": 1,
+            "histogram_last_bin_is_overflow": true,
+            "latency_histogram": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              365
+            ],
+            "max_latency_us": 50.314,
+            "num_data_pdu_bytes": 25715,
+            "num_data_pdus": 366,
+            "num_dropped_pdus": 0,
+            "num_integrity_failed_pdus": 0,
+            "num_integrity_verified_pdus": 366,
+            "num_pdu_bytes": 25715,
+            "num_pdus": 366,
+            "num_sdu_bytes": 24617,
+            "num_sdus": 366,
+            "num_t_reordering_timeouts": 0,
+            "pdu_throughput_mbps": 0.20572,
+            "sdu_throughput_mbps": 0.19693599999999997
+          }
+        }
+      ],
+      "dl": {
+        "average_latency_us": 26.491077267637177,
+        "average_throughput_mbps": 9.418672,
+        "cpu_usage_percent": 0.0231534,
+        "histogram_bin_width_us": 1,
+        "histogram_last_bin_is_overflow": true,
+        "latency_histogram": [
+          0,
+          3,
+          7,
+          11,
+          11,
+          6,
+          17,
+          838
+        ],
+        "max_latency_us": 120.834,
+        "min_latency_us": 1.9140000000000001,
+        "num_discard_timeouts": 0,
+        "num_dropped_sdus": 0,
+        "num_pdu_bytes": 1177334,
+        "num_pdus": 893,
+        "num_sdu_bytes": 1174655,
+        "num_sdus": 893,
+        "pdu_throughput_mbps": 9.418672,
+        "sdu_throughput_mbps": 9.39724
+      },
+      "ul": {
+        "average_latency_us": 28.87233606557377,
+        "average_reordering_delay_us": 28.34153005464481,
+        "average_throughput_mbps": 0.20572,
+        "cpu_usage_percent": 0.0085685,
+        "histogram_bin_width_us": 1,
+        "histogram_last_bin_is_overflow": true,
+        "latency_histogram": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          365
+        ],
+        "max_latency_us": 50.314,
+        "num_data_pdu_bytes": 25715,
+        "num_data_pdus": 366,
+        "num_dropped_pdus": 0,
+        "num_integrity_failed_pdus": 0,
+        "num_integrity_verified_pdus": 366,
+        "num_pdu_bytes": 25715,
+        "num_pdus": 366,
+        "num_sdu_bytes": 24617,
+        "num_sdus": 366,
+        "num_t_reordering_timeouts": 0,
+        "pdu_throughput_mbps": 0.20572,
+        "sdu_throughput_mbps": 0.19693599999999997
+      }
+    }
+  },
+  "timestamp": "2026-10-09T17:19:33.246"
+}

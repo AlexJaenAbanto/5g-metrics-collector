@@ -1,0 +1,25 @@
+{
+  "cu-up": {
+    "e1ap": {
+      "bearer_context_releases": 0,
+      "release_latency": {
+        "average_us": 0.0,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "histogram_bin_width_ms": 100,
+        "max_us": 0
+      },
+      "successful_bearer_context_modifications": 0,
+      "successful_bearer_context_setups": 0
+    }
+  },
+  "timestamp": "2026-10-09T17:14:08.105"
+}

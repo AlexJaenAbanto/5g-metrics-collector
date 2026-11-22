@@ -1,0 +1,29 @@
+{
+  "ru": {
+    "sdr": {
+      "cells": [
+        {
+          "pci": 1,
+          "rx": {
+            "average_power_db": -24.38023567199707,
+            "clipping_probability": 0.0,
+            "papr_db": 12.67123031616211,
+            "peak_power_db": -11.709007263183594
+          },
+          "tx": {
+            "average_power_db": -12.751063346862793,
+            "clipping_probability": 9.909710740885203e-08,
+            "papr_db": 13.05962085723877,
+            "peak_power_db": 0.3085578680038452
+          }
+        }
+      ],
+      "radio": {
+        "late_count": 0,
+        "overflow_count": 0,
+        "underflow_count": 0
+      }
+    }
+  },
+  "timestamp": "2026-10-09T17:33:13.286"
+}

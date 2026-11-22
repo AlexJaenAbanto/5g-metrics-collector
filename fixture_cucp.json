@@ -1,0 +1,222 @@
+{
+  "cu-cp": {
+    "id": "srs-cu-cp",
+    "ngaps": {
+      "ngap": [
+        {
+          "amf_name": "open5gs-amf0",
+          "connected": true,
+          "paging_measurement": {
+            "nof_cn_initiated_paging_requests": 3
+          },
+          "pdu_session_management": {
+            "nof_pdu_sessions_failed_to_setup": {
+              "misc-ctrl_processing_overload": 0,
+              "misc-hardware_fail": 0,
+              "misc-not_enough_user_plane_processing_res": 0,
+              "misc-om_intervention": 0,
+              "misc-unknown_plmn_or_sn_pn": 0,
+              "nas-authentication_fail": 0,
+              "nas-deregister": 0,
+              "nas-normal_release": 0,
+              "nas-unspecified": 0,
+              "protocol-abstract_syntax_error_falsely_constructed_msg": 0,
+              "protocol-abstract_syntax_error_ignore_and_notify": 0,
+              "protocol-abstract_syntax_error_reject": 0,
+              "protocol-msg_not_compatible_with_receiver_state": 0,
+              "protocol-semantic_error": 0,
+              "protocol-transfer_syntax_error": 0,
+              "protocol-unspecified": 0,
+              "radio_network-cag_only_access_denied": 0,
+              "radio_network-cell_not_available": 0,
+              "radio_network-encryption_and_or_integrity_protection_algorithms_not_supported": 0,
+              "radio_network-fail_in_radio_interface_proc": 0,
+              "radio_network-ho_cancelled": 0,
+              "radio_network-ho_desirable_for_radio_reason": 0,
+              "radio_network-ho_fail_in_target_5_gc_ngran_node_or_target_sys": 0,
+              "radio_network-ho_target_not_allowed": 0,
+              "radio_network-ims_voice_eps_fallback_or_rat_fallback_triggered": 0,
+              "radio_network-inconsistent_remote_ue_ngap_id": 0,
+              "radio_network-inconsistent_slice_info_for_the_session": 0,
+              "radio_network-indicated_mbs_session_area_info_not_served_by_the_gnb": 0,
+              "radio_network-insufficient_ue_cap": 0,
+              "radio_network-interaction_with_other_proc": 0,
+              "radio_network-invalid_qos_combination": 0,
+              "radio_network-misaligned_assoc_for_multicast_unicast": 0,
+              "radio_network-multiple_location_report_ref_id_instances": 0,
+              "radio_network-multiple_pdu_session_id_instances": 0,
+              "radio_network-multiple_qos_flow_id_instances": 0,
+              "radio_network-n26_interface_not_available": 0,
+              "radio_network-ng_inter_sys_ho_triggered": 0,
+              "radio_network-ng_intra_sys_ho_triggered": 0,
+              "radio_network-no_radio_res_available_in_target_cell": 0,
+              "radio_network-not_supported_5qi_value": 0,
+              "radio_network-npn_access_denied": 0,
+              "radio_network-partial_ho": 0,
+              "radio_network-radio_conn_with_ue_lost": 0,
+              "radio_network-radio_res_not_available": 0,
+              "radio_network-redcap_ue_not_supported": 0,
+              "radio_network-redirection": 0,
+              "radio_network-reduce_load_in_serving_cell": 0,
+              "radio_network-release_due_to_5gc_generated_reason": 0,
+              "radio_network-release_due_to_cn_detected_mob": 0,
+              "radio_network-release_due_to_ngran_generated_reason": 0,
+              "radio_network-release_due_to_pre_emption": 0,
+              "radio_network-res_not_available_for_the_slice": 0,
+              "radio_network-res_optim_ho": 0,
+              "radio_network-rsn_not_available_for_the_up": 0,
+              "radio_network-slice_not_supported": 0,
+              "radio_network-successful_ho": 0,
+              "radio_network-time_crit_ho": 0,
+              "radio_network-tngrelocoverall_expiry": 0,
+              "radio_network-tngrelocprep_expiry": 0,
+              "radio_network-txnrelocoverall_expiry": 0,
+              "radio_network-ue_context_transfer": 0,
+              "radio_network-ue_in_rrc_inactive_state_not_reachable": 0,
+              "radio_network-ue_max_integrity_protected_data_rate_reason": 0,
+              "radio_network-unknown_local_ue_ngap_id": 0,
+              "radio_network-unknown_mbs_session_id": 0,
+              "radio_network-unknown_pdu_session_id": 0,
+              "radio_network-unknown_target_id": 0,
+              "radio_network-unkown_qos_flow_id": 0,
+              "radio_network-unspecified": 0,
+              "radio_network-up_confidentiality_protection_not_possible": 0,
+              "radio_network-up_integrity_protection_not_possible": 0,
+              "radio_network-user_inactivity": 0,
+              "radio_network-xn_ho_triggered": 0,
+              "transport-transport_res_unavailable": 0,
+              "transport-unspecified": 0
+            },
+            "nof_pdu_sessions_requested_to_setup": 3,
+            "nof_pdu_sessions_successfully_setup": 3,
+            "s-nssai": "(sst=1 sd=na)"
+          },
+          "supported_plmns": "[ 99970, ]"
+        }
+      ],
+      "nof_handover_preparations_requested": 0,
+      "nof_successful_handover_preparations": 0
+    },
+    "rrcs": {
+      "du": [
+        {
+          "gnb_du_id": 0,
+          "rrc_connection_establishment": {
+            "attempted_rrc_connection_establishments": {
+              "emergency": 0,
+              "high_prio_access": 0,
+              "mcs_prio_access": 0,
+              "mo_data": 0,
+              "mo_sig": 0,
+              "mo_sms": 0,
+              "mo_video_call": 0,
+              "mo_voice_call": 0,
+              "mps_prio_access": 4,
+              "mt_access": 0,
+              "unknown": 0
+            },
+            "failed_rrc_connection_establishments": {
+              "network_reject": 0,
+              "no_reply": 0,
+              "other": 0
+            },
+            "successful_rrc_connection_establishments": {
+              "emergency": 0,
+              "high_prio_access": 0,
+              "mcs_prio_access": 0,
+              "mo_data": 0,
+              "mo_sig": 0,
+              "mo_sms": 0,
+              "mo_video_call": 0,
+              "mo_voice_call": 0,
+              "mps_prio_access": 3,
+              "mt_access": 0,
+              "unknown": 0
+            }
+          },
+          "rrc_connection_number": {
+            "max_nof_inactive_rrc_connections": 0,
+            "max_nof_rrc_connections": 0,
+            "mean_nof_inactive_rrc_connections": 0,
+            "mean_nof_rrc_connections": 0
+          },
+          "rrc_connection_reestablishment": {
+            "attempted_rrc_connection_reestablishments": 0,
+            "successful_rrc_connection_reestablishments_with_ue_context": 0,
+            "successful_rrc_connection_reestablishments_without_ue_context": 0
+          },
+          "rrc_connection_resume": {
+            "attempted_rrc_connection_resumes": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "attempted_rrc_connection_resumes_followed_by_rrc_setup": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "rrc_connection_resumes_followed_by_network_release": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "successful_rrc_connection_resumes": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "successful_rrc_connection_resumes_with_fallback": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "nof_handover_executions_requested": 0,
+      "nof_successful_handover_executions": 0
+    }
+  },
+  "timestamp": "2026-10-09T17:39:21.268"
+}

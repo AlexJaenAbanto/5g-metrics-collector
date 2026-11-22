@@ -1,0 +1,101 @@
+{
+  "cells": [
+    {
+      "cell_metrics": {
+        "average_latency": 21,
+        "avg_prach_delay": 0.0,
+        "error_indication_count": 0,
+        "late_dl_harqs": 0,
+        "late_ul_harqs": 0,
+        "latency_histogram": [
+          1983,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_latency": 83,
+        "msg3_nof_nok": 0,
+        "msg3_nof_ok": 0,
+        "nof_failed_pdcch_allocs": 0,
+        "nof_failed_uci_allocs": 0,
+        "pci": 1,
+        "pdsch_prbs_used_per_tdd_slot_idx": [
+          41,
+          51,
+          51,
+          51,
+          51,
+          51,
+          51,
+          0,
+          0,
+          0
+        ],
+        "pucch_tot_rb_usage_avg": 0.9900000095367432,
+        "pusch_prbs_used_per_tdd_slot_idx": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      "ue_list": [
+        {
+          "avg_ce_delay": 4.0,
+          "avg_crc_delay": 4.0,
+          "avg_pucch_harq_delay": 3.8216912746429443,
+          "avg_pusch_harq_delay": 4.0,
+          "avg_sr_to_pusch_delay": 9.5,
+          "bsr": 535,
+          "cqi": 15,
+          "dl_brate": 58318288.0,
+          "dl_bs": 509402,
+          "dl_mcs": 27,
+          "dl_nof_nok": 0,
+          "dl_nof_ok": 1400,
+          "dl_ri": 1.0,
+          "last_phr": -6,
+          "max_ce_delay": 4.0,
+          "max_crc_delay": 4.0,
+          "max_pdsch_distance": 2,
+          "max_pucch_harq_delay": 4.0,
+          "max_pusch_distance": 30,
+          "max_pusch_harq_delay": 4.0,
+          "max_sr_to_pusch_delay": 9.5,
+          "nof_pucch_f0f1_invalid_harqs": 0,
+          "nof_pucch_f2f3f4_invalid_csis": 0,
+          "nof_pucch_f2f3f4_invalid_harqs": 0,
+          "nof_pusch_invalid_csis": 0,
+          "nof_pusch_invalid_harqs": 0,
+          "pci": 1,
+          "pucch_snr_db": 21.608835220336914,
+          "pucch_ta_ns": 334.96715445835434,
+          "pusch_snr_db": 33.07560729980469,
+          "pusch_ta_ns": 350.4525807329628,
+          "rnti": 17922,
+          "srs_ta_ns": 0.0,
+          "ta_ns": 338.4361377811729,
+          "ue": 1,
+          "ul_brate": 379904.0,
+          "ul_mcs": 27,
+          "ul_nof_nok": 0,
+          "ul_nof_ok": 56,
+          "ul_ri": 1.0
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-10-09T17:07:31.289"
+}
